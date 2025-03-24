@@ -1,0 +1,8 @@
+JFrame
+-->(継承) KeyEventTest01
+	-->(合成) (contentPane) JPanel
+		--> (listener) KeyHandler
+			+ keyPressed(ke: KeyEvent): void
+			+ keyTyped(ke: KeyEvent): void
+			+ keyReleased(ke: KeyEvent): void
+			<-- <<interface>> KeyListener
