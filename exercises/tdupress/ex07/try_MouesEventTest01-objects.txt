@@ -1,0 +1,5 @@
+frame: try_MouseEventTest01
+-->(合成) pane: JPanel
+	-->(listener) : MouseHandler
+		+ mouseClicked(me: MouseEvent): void
+		<--(継承) : MouseAdapter
