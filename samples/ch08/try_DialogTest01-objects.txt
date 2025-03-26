@@ -1,0 +1,6 @@
+frame: DialogTest01
+-->(合成) pane: JPanel
+	-->(合成) : JButton
+		-->(合成) : OpenDialog
+			+ actionPerformed(ae: ActionEvent): void
+			<--(継承) : AbstractAction

@@ -1,0 +1,10 @@
+frame: try_DialogTest05
+-->(合成) pane: JPanel
+-->(合成) menuBar: JMenuBar
+	-->(合成) dialogMenu: JMenu
+		-->(合成) : menuItem
+			--> : OpenDialog
+				+ actionPerformed(ae: ActionEvent): void
+				<--(継承) : AbstractAction
+-->(listener) : 無名内部クラス
+	<--(継承) : WindowAdapter

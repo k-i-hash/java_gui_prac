@@ -1,0 +1,13 @@
+frame: DialogTest02
+-->(合成) pane: JPanel
+	--> (listener) : 無名内部クラス
+-->(合成) label: JLabel
+-->(合成) menuBar: JMenuBar
+	-->(合成) fileMenu: JMenu
+		--> : OpenAction
+			+ actionPerformed(ae: ActionEvent): void
+			<--(継承) AbstractAction
+		--> : ExitAction
+			+ actionPerformed(ae: ActionEvent): void
+			<--(継承) AbstractAction
++ main(String[] args): void
