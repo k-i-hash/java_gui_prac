@@ -1,0 +1,27 @@
+frame: TextAreaTest02
+-->(合成) pane: JPanel
+	-->(合成) menuBar: JMenuBar
+		-->(合成) file: JMenu
+			-->(合成) : JMenuItem
+				-->(合成) : NewAction
+					+ actionPerformed(ae: ActionEvent): void
+					<--(継承) AbstractAction
+			-->(合成) : JMenuItem
+				-->(合成) : OpenAction
+					...
+			-->(合成) : JMenuItem
+				-->(合成) : SaveAction
+					...
+		-->(合成) edit: JMenu
+			-->(合成) : JMenuItem
+				-->(合成) : CutAction
+					...
+			-->(合成) : JMenuItem
+				-->(合成) : CopyAction
+					...
+			-->(合成) : JMenuItem
+				-->(合成) : PasteAction
+					...
+	-->(合成) sp: JScrollPane
+		-->(合成) ta: TextArea
+		

@@ -1,0 +1,6 @@
+frame: TextFieldTest02
+-->(合成) pane: JPanel
+	-->(合成) tf: JTextField
+		-->(listener) : TextActionHandler
+			+ actionPerformed(ae: ActionEvent): void
+			<-- <<interface>> ActionListener

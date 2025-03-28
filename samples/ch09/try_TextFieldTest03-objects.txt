@@ -1,0 +1,6 @@
+frame: TextFieldTest03
+-->(合成) pane: JPanel
+	-->(合成) tf: JTextField
+		-->(合成) : PhoneNumberDocument
+			+ insertString(offset: int, str: String, a: AttributeSet): void
+			<--(継承) PlainDocument

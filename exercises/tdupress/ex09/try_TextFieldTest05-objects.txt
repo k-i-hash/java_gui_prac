@@ -1,0 +1,6 @@
+frame: try_TextFieldTest05
+-->(合成) pane: JPanel
+	-->(合成) textInput: JTextField
+		-->(合成) : TitleBorder
+	-->(合成) textCopied: JTextField
+		-->(合成) : TitleBorder
